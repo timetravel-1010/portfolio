@@ -14,7 +14,7 @@ const projects: Project[] = [
     url: "/projects/indexer",
   },
   {
-    name: 'SaludLegal Web App',
+    name: 'SaludLegal',
     description: 'Web App for manage medical records',
     url: '/projects/saludlegal',
   },

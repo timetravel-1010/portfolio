@@ -22,11 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${firaCode.className} custom-bg text-gray-100`}>
-        <div className="bg-dot-pattern">
-          <div className="max-w-4xl mx-auto px-4 py-8">
-            <Navigation />
-            {children}
-          </div >
+        <div className="max-w-4xl mx-auto px-4 py-8">
+          <Navigation />
+          {children}
         </div >
       </body>
     </html>

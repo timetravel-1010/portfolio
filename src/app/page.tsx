@@ -3,7 +3,7 @@ import { Projects } from "@/components/projects"
 
 export default function Home() {
   return (
-    <main className="mt-20 space-y-16">
+    <main className="mt-20 space-y-12">
       <section className="space-y-6">
         <h1 className="text-4xl font-bold">Hello/</h1>
         <div className="space-y-4 text-lg">

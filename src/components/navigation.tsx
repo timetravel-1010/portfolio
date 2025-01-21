@@ -14,7 +14,7 @@ export function Navigation() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex items-center justify-between">
+    <nav className="flex flex-col items-center justify-between">
       <ul className="flex items-center space-x-6">
         {links.map(({ href, label }) => (
           <li key={href}>
@@ -28,6 +28,7 @@ export function Navigation() {
           </li>
         ))}
       </ul>
+      <div className="w-full h-0.5 bg-gray-300 my-4 "></div>
     </nav>
   );
 }
