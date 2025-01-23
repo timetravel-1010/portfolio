@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="">
       <blockquote className="italic border-l-4 border-[#D4C5A9] pl-4 py-2 my-4 mt-0 text-lg">
-        "Any sufficiently advanced technology is indistinguishable from magic."
+        &quot;Any sufficiently advanced technology is indistinguishable from magic.&quot;
         <cite className="not-italic block mt-2 text-sm text-gray-400">- Arthur C. Clarke</cite>
       </blockquote>
 
