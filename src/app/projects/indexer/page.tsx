@@ -1,5 +1,3 @@
-import emailStructure from './images/email-structure.png';
-
 export default function Indexer() {
   return (
     <>
@@ -20,7 +18,7 @@ export default function Indexer() {
       </p>
 
       <p>
-        In the end I didn't get the job, but, it was a lot of fun to develop
+        In the end I didn&apos;t get the job, but, it was a lot of fun to develop
         this project and it was also the first time I developed something from
         scratch using Go, so it was worth it.
       </p>
