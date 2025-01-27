@@ -14,12 +14,6 @@ const experiences: ExperienceItem[] = [
     period: "May 2024 - Aug 2024",
     url: "https://www.planify.la"
   },
-  {
-    company: "Crunchyroll S.A",
-    role: "Backend Developer",
-    period: "May 2026 - Aug 2040",
-    url: "https://www.crunchyroll.com"
-  },
 ];
 
 export function ExperienceSection() {

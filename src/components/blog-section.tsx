@@ -9,12 +9,6 @@ interface Post {
 
 const posts: Post[] = [
   {
-    title: 'Building a JSON Parser in Go',
-    date: '19/01/2025',
-    url: 'blogs/jsonparser',
-    finished: true,
-  },
-  {
     title: 'Testing Ollama 3.2 Vision',
     date: '.../01/2025',
     url: 'blogs/ollama-vision',

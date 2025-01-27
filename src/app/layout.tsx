@@ -23,7 +23,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={`${firaCode.className} custom-bg text-gray-100`}>
+      <head></head>
+      <body className={`${firaCode.className} antialiased custom-bg text-gray-100`}>
         <div className="max-w-3xl mx-auto my-8">
           <Navigation />
           <div
@@ -38,7 +39,9 @@ export default function RootLayout({
             custom-bg md:p-5 md:before:block md:after:block relative
             mt-16 p-4"
           >
-            {children}
+            <main className="space-y-6">
+              {children}
+            </main>
           </div>
         </div >
         <Footer />
