@@ -9,30 +9,35 @@ interface Post {
 
 const posts: Post[] = [
   {
-    title: 'Testing Ollama 3.2 Vision',
-    date: '.../01/2025',
-    url: 'blogs/ollama-vision',
+    title: '',
+    date: '',
+    url: '',
     finished: false,
   },
 ]
 
 export function BlogSection() {
   return (
-    <div className="space-y-4 text-lg">
-      <ol className="space-y-4">
-        {posts.map(p => (
-          p.finished ? (
-            <li key={p.url} className="hover:text-[#FF6B45]" >
-              <Link href={p.url}>
-                - {p.date} {p.title}
-              </Link>
-            </li>) : (
-            <li key={p.title}>
-              - (Coming Soon...) {p.title}
-            </li>
-          )
-        ))}
-      </ol>
-    </div>
+    <section>
+      <div className="my-14 space-y-8">
+        <h2 className='text-3xl font-semibold'>Blog</h2>
+        <div className="space-y-4 text-lg">
+          <ol className="space-y-4">
+            {posts.map(p => (
+              p.finished ? (
+                <li key={p.url} className="hover:text-[#FF6B45]" >
+                  <Link href={p.url}>
+                    - {p.date} {p.title}
+                  </Link>
+                </li>) : (
+                <li key={p.title}>
+                  - (Coming Soon...) {p.title}
+                </li>
+              )
+            ))}
+          </ol>
+        </div>
+      </div>
+    </section>
   )
 }

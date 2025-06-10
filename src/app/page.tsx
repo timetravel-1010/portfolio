@@ -24,28 +24,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <ExperienceSection />
-      </section>
-
       <div className="border-b border-gray-100"></div>
-
-      <section>
-        <div className="my-14 space-y-8">
-          <h2 className="text-3xl font-semibold">Projects</h2>
-          <ProjectsSection />
-        </div>
-      </section>
-
+      <ExperienceSection />
       <div className="border-b border-gray-100"></div>
-
-      <section>
-        <div className="my-14 space-y-8">
-          <h2 className='text-3xl font-semibold'>Blog</h2>
-          <BlogSection />
-        </div>
-      </section>
-
+      <ProjectsSection />
+      <div className="border-b border-gray-100"></div>
+      <BlogSection />
     </>
   )
 }
